@@ -1,4 +1,5 @@
 #include "HumanPlayer.h"
+#include "Music.h"
 
 void HumanPlayer::MakeAMove(int coord_buffer[2]) {
 	bool is_not_valid = true;
@@ -49,6 +50,9 @@ void HumanPlayer::MakeAMove(int coord_buffer[2]) {
 			coord_buffer[0] = 2;
 			coord_buffer[1] = 2;
 			is_not_valid = false;
+			break;
+		default:
+			Music::Error();
 			break;
 		}
 	}
