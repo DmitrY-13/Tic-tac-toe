@@ -1,4 +1,6 @@
 #pragma once
+#include <conio.h>
+#include <cctype>
 #include "Player.h"
 //subclass HumanPlayer
 class HumanPlayer : public Player {
@@ -8,5 +10,5 @@ public:
 		this->sym = sym;
 	}
 //class methods
-	int* MakeAMove();
+	void MakeAMove(int coord_buffer[2]);
 };

@@ -1,6 +1,5 @@
 #include "BotPlayer.h"
 
-int* BotPlayer::MakeAMove()
-{
-	return nullptr;
+void BotPlayer::MakeAMove(int coord_buffer[2]) {
+
 }

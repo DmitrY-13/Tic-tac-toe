@@ -3,6 +3,8 @@
 class Player {
 //class field
 protected:
-	char sym = '\0';
-	int last_move[2]{};
+	char sym;
+//class methods
+public:
+	char GetSym();
 };

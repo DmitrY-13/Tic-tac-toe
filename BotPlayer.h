@@ -8,5 +8,5 @@ public:
 		this->sym = sym;
 	}
 //class methods
-	int* MakeAMove();
+	void MakeAMove(int coord_buffer[2]);
 };
