@@ -1,5 +1,6 @@
 #include "BotPlayer.h"
 
-void BotPlayer::MakeAMove(int coord_buffer[2]) {
+void BotPlayer::makeAMove(int coordinatesBuffer[2])
+{
 
 }

@@ -2,13 +2,16 @@
 #include <conio.h>
 #include <cctype>
 #include "Player.h"
+
 //subclass HumanPlayer
-class HumanPlayer : public Player {
+class HumanPlayer : public Player
+{
 //class constuctor
 public:
-	HumanPlayer(char sym) {
-		this->sym = sym;
+	HumanPlayer(char sym)
+	{
+		sym_ = sym;
 	}
 //class methods
-	void MakeAMove(int coord_buffer[2]);
+	void makeAMove(int coordinatesBuffer[2]);
 };

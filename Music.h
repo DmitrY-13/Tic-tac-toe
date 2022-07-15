@@ -1,17 +1,19 @@
 #pragma once
 #include <Windows.h>
-class Music {
+
+class Music
+{
 //class methods
 private:
-	static void C(int duration);
-	static void D(int duration);
-	static void E(int duration);
-	static void F(int duration);
-	static void G(int duration);
-	static void A(int duration);
-	static void H(int duration);
+	static void c(int duration);
+	static void d(int duration);
+	static void e(int duration);
+	static void f(int duration);
+	static void g(int duration);
+	static void a(int duration);
+	static void h(int duration);
 public:
-	static void Error();
-	static void Win();
-	static void Lose();
+	static void error();
+	static void win();
+	static void lose();
 };

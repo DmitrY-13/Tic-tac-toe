@@ -1,10 +1,12 @@
 #pragma once
+
 //super class Player
-class Player {
+class Player
+{
 //class field
 protected:
-	char sym;
+	char sym_;
 //class methods
 public:
-	char GetSym();
+	char getSym();
 };

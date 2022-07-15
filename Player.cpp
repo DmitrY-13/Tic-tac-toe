@@ -1,5 +1,6 @@
 #include "Player.h"
 
-char Player::GetSym() {
-	return sym;
+char Player::getSym()
+{
+	return sym_;
 }
