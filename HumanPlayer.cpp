@@ -1,3 +1,5 @@
+#include <conio.h>
+#include <cctype>
 #include "HumanPlayer.h"
 #include "Music.h"
 

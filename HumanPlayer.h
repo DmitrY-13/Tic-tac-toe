@@ -1,6 +1,4 @@
 #pragma once
-#include <conio.h>
-#include <cctype>
 #include "Player.h"
 
 //subclass HumanPlayer
