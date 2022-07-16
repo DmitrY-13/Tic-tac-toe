@@ -3,6 +3,11 @@
 #include "HumanPlayer.h"
 #include "Music.h"
 
+HumanPlayer::HumanPlayer(char sym)
+{
+	sym_ = sym;
+}
+
 void HumanPlayer::makeAMove(int coordinatesBuffer[2])
 {
 	bool isInvalid = true;

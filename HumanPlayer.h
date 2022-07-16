@@ -6,10 +6,7 @@ class HumanPlayer : public Player
 {
 //class constuctor
 public:
-	HumanPlayer(char sym)
-	{
-		sym_ = sym;
-	}
+	HumanPlayer(char sym);
 //class methods
 	void makeAMove(int coordinatesBuffer[2]);
 };

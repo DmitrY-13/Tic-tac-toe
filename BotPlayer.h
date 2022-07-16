@@ -6,10 +6,7 @@ class BotPlayer : public Player
 {
 //class constuctor
 public:
-	BotPlayer(char sym)
-	{
-		sym_ = sym;
-	}
+	BotPlayer(char sym);
 //class methods
 	void makeAMove(int coordinatesBuffer[2]);
 };
