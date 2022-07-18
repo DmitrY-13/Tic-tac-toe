@@ -2,7 +2,7 @@
 
 class Board
 {
-//class field
+//class fields
 private:
 	static const int SIZE_ = 3;
 	char matrix_[SIZE_][SIZE_]{};

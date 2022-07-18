@@ -3,7 +3,7 @@
 //super class Player
 class Player
 {
-//class field
+//class fields
 protected:
 	char sym_;
 //class methods
