@@ -23,6 +23,7 @@ int main()
 		Game game(humanSym, botSym);
 		game.play();
 
+		cout << endl;
 		cout << "Play again?" << endl;
 		cout << "[Y] - Yes" << endl;
 		cout << "[Other key] - No" << endl;
