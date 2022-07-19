@@ -20,7 +20,6 @@ void BotPlayer::makeAMove(char matrix[Board::SIZE][Board::SIZE], char opponentSy
 	int randomMoveId = rand() % emptyCells.size();  //choosing a random move
 	coordinatesBuffer[0] = emptyCells[randomMoveId][0];
 	coordinatesBuffer[1] = emptyCells[randomMoveId][1];
-
 }
 
 void BotPlayer::findEmptyCells(char matrix[Board::SIZE][Board::SIZE], std::vector<std::vector<int>>& emptyCellsBuffer)
