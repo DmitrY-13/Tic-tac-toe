@@ -10,7 +10,7 @@ void BotPlayer::makeAMove(char matrix[Board::SIZE][Board::SIZE], char opponentSy
 	std::vector<std::vector<int>> emptyCells;
 	findEmptyCells(matrix, emptyCells);
 
-	if (isOneMoveVictory(matrix, emptyCells, SYM_, coordinatesBuffer))  //checking for the possibility of victory and implementing it
+	if (isOneMoveVictory(matrix, emptyCells, SYM, coordinatesBuffer))  //checking for the possibility of victory and implementing it
 		return;
 
 	if (isOneMoveVictory(matrix, emptyCells, opponentSym, coordinatesBuffer))  //checking for the possibility of defeat and preventing it
