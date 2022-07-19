@@ -17,12 +17,6 @@ void Board::setMatrix(char matrix[SIZE][SIZE])
 		*(*matrix_ + i) = *(*matrix + i);
 }
 
-void Board::clearMatrix()
-{
-	for (int i = 0; i < (SIZE * SIZE); i++)
-		*(*matrix_ + i) = '\0';
-}
-
 bool Board::isEmpty(int x, int y)
 {
 	if (matrix_[x][y] == '\0')

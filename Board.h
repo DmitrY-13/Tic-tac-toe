@@ -12,7 +12,6 @@ public:
 	void copyMatrix(char matrix[SIZE][SIZE]);
 	void setSymIn(int x, int y, char sym);
 	void setMatrix(char matrix[SIZE][SIZE]);
-	void clearMatrix();
 	bool isEmpty(int x, int y);
 	bool isFull();
 	bool isWin();
