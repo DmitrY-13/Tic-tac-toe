@@ -5,8 +5,10 @@ class Player
 {
 //class fields
 protected:
-	char sym_;
-//class methods
+	const char SYM_;
+//class constructor
 public:
+	Player(char sym);
+//class methods
 	char getSym();
 };

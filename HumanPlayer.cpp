@@ -3,9 +3,8 @@
 #include "HumanPlayer.h"
 #include "Music.h"
 
-HumanPlayer::HumanPlayer(char sym)
+HumanPlayer::HumanPlayer(char sym) : Player::Player(sym)
 {
-	sym_ = sym;
 }
 
 void HumanPlayer::makeAMove(int coordinatesBuffer[2])

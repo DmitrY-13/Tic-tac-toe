@@ -3,14 +3,15 @@
 class Board
 {
 //class fields
+public:
+	static const int SIZE = 3;
 private:
-	static const int SIZE_ = 3;
-	char matrix_[SIZE_][SIZE_]{};
+	char matrix_[SIZE][SIZE]{};
 //class methods
 public:
-	void copyMatrix(char matrix[SIZE_][SIZE_]);
+	void copyMatrix(char matrix[SIZE][SIZE]);
 	void setSymIn(int x, int y, char sym);
-	void setMatrix(char matrix[SIZE_][SIZE_]);
+	void setMatrix(char matrix[SIZE][SIZE]);
 	void clearMatrix();
 	bool isEmpty(int x, int y);
 	bool isFull();
