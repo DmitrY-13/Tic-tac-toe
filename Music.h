@@ -15,4 +15,5 @@ public:
 	static void error();
 	static void win();
 	static void lose();
+	static void draw();
 };

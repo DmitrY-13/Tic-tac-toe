@@ -54,8 +54,15 @@ void Music::win()
 
 void Music::lose()
 {
-	a(500);
+	h(500);
+	g(500);
 	e(500);
+	h(800);
+}
+
+void Music::draw()
+{
+	e(500);
+	d(500);
 	c(500);
-	a(800);
 }
